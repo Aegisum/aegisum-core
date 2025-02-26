@@ -3,9 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include <clientversion.h>
-
 #include <tinyformat.h>
-
 
 /**
  * Name of client reported in the 'version' message. Report the same name
@@ -13,7 +11,6 @@
  * target servers or GUI users specifically.
  */
 const std::string CLIENT_NAME("AegisumCore");
-
 
 #ifdef HAVE_BUILD_INFO
 #include <obj/build.h>
@@ -31,8 +28,7 @@ const std::string CLIENT_NAME("AegisumCore");
     #define BUILD_DESC BUILD_GIT_TAG
     #define BUILD_SUFFIX ""
 #else
-    #define BUILD_DESC "v" STRINGIZE(CLIENT_VERSION_MAJOR) "." STRINGIZE(CLIENT_VERSION_MINOR) \
-                       "." STRINGIZE(CLIENT_VERSION_REVISION) "." STRINGIZE(CLIENT_VERSION_BUILD)
+    #define BUILD_DESC "v1.1.1"
     #ifdef BUILD_GIT_COMMIT
         #define BUILD_SUFFIX "-" BUILD_GIT_COMMIT
     #elif defined(GIT_COMMIT_ID)
