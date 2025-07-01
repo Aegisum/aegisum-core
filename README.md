@@ -20,7 +20,7 @@ Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin
 
 | **Property**              | **Details**                   |
 |---------------------------|--------------------------------|
-| **Source Branch**        | 0.21                           |
+| **Source Branch**        | 0.21.3                         |
 | **Algorithm**            | Scrypt Proof of Work          |
 | **Coin Name**            | Aegisum                        |
 | **Coin Abbreviation**    | AEGS                           |
@@ -29,9 +29,9 @@ Aegisum is a secure, scalable, and community-driven blockchain built on Litecoin
 | **Coin Unit**            | gisum                          |
 | **RPC Port**             | 39940                          |
 | **P2P Port**             | 39941                          |
-| **Block Reward**         | 500 coins                      |
+| **Initial Block Reward**         | 500 coins              |
 | **Block Halving**        | Every 100,000 blocks           |
-| **Coin Supply**         | 100,000,000 coins          |
+| **Max Supply**         | 100,000,000 coins          |
 
 ## Advanced Properties 🚀
 
@@ -69,16 +69,16 @@ Alternatively, refer to the Bitcoin Core documentation, which follows a similar 
 Aegisum Core is an **open-source, community-driven** software. The development process is transparent, and anyone can contribute.
 
 ### Main Development Resources
-- **[GitHub Repository](https://github.com/aegisum/core)** – Follow the latest developments.
-- **GitHub Discussions** – Discuss new features and improvements.
-- **[Aegisum Community](https://github.com/Aegisum/core/main/README.md#community--socials-)** – Join the growing community.
+- **[GitHub Repository](https://github.com/Aegisum/aegisum-core)** – Follow the latest developments.
+- **[GitHub Discussions](https://github.com/Aegisum/aegisum-core/discussions)** – Discuss new features and improvements.
+- **[Aegisum Community](https://github.com/Aegisum/aegisum-core?tab=readme-ov-file#community--socials-)** – Join the growing community.
 
 ## Version Strategy 📌
 
 Aegisum Core follows **major.minor.patch** versioning.
 
 ### Branches:
-- **master**: Stable, contains the latest major release.
+- **main**: Stable, contains the latest major release.
 - **maintenance**: Stable, contains previous releases under maintenance.
 - **development**: Unstable, contains new code for upcoming releases.
 

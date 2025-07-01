@@ -608,7 +608,7 @@ std::string LicenseInfo()
                PACKAGE_NAME, "<https://aegisum.com>") +
            "\n" +
            strprintf(_("Join our Discord community: %s").translated,
-               "<https://discord.gg/aegs>") +
+               "<https://discord.gg/4E5caDKkeP>") +
            "\n" +
            strprintf(_("Official mining pool: %s").translated,
                "<https://pool.aegisum.com>") +
